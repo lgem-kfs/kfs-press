@@ -1,0 +1,31 @@
+{
+  "name": "kfs-press",
+  "version": "1.0.0",
+  "preview": false,
+  "author": {
+    "name": "cc-lgtm",
+    "email": "2448856797@qq.com"
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "ts-node ./src/runtime/md/index.ts"
+  },
+  "dependencies": {
+    "@vue/server-renderer": "^3.2.27",
+    "markdown-it": "^12.3.2",
+    "vue": "^3.2.25"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.10",
+    "@vitejs/plugin-vue": "^2.0.0",
+    "koa": "^2.9.0",
+    "typescript": "^4.4.4",
+    "commander": "^8.3.0",
+    "fs-extra": "^10.0.0",
+    "vite": "^2.7.2",
+    "vue-tsc": "^0.29.8"
+  }
+}
